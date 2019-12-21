@@ -1,0 +1,44 @@
+﻿#hello
+#hi
+#hey
+
+# HEHE
+
+# Images
+
+image PlayerShip blue_01
+
+image Enemy1 tankbase_01
+image Enemy2 darkgrey_01
+image Enemy3 purple_06
+
+image Boss1 large_grey_01
+image Boss2 large_purple_01
+image Boss3 large_grey_02
+image Boss4 large_red_01
+image Boss5 large_green_01
+
+image HealthBar_0 healthbar_0
+image HealthBar_1 healthbar_1
+image HealthBar_2 healthbar_2
+image HealthBar_3 healthbar_3
+image HealthBar_4 healthbar_4
+image HealthBar_5 healthbar_5
+image HealthBar_6 healthbar_6
+image HealthBar_7 healthbar_7
+image HealthBar_8 healthbar_8
+image HealthBar_9 healthbar_9
+image HealthBar_10 healthbar_10
+
+image Asteroid Aster1
+
+image LaserBlue Projectiles\\projectile-blue
+image LaserRed Projectiles\\projectile-red
+image LaserOrange Projectiles\\projectile-orange
+image LaserGreen Projectiles\\projectile-green
+
+image PowerUp powerup
+
+# Sounds
+
+sound Laser laser
