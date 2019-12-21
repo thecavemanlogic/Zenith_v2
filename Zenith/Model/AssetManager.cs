@@ -42,7 +42,8 @@ namespace Zenith
         LaserGreen,
         LaserOrange,
         LaserRed,
-        PowerUp
+        DamagePowerUp,
+        HealthPowerUp
     }
 
     public enum GameSound

@@ -37,7 +37,8 @@ image LaserRed Projectiles\\projectile-red
 image LaserOrange Projectiles\\projectile-orange
 image LaserGreen Projectiles\\projectile-green
 
-image PowerUp powerup
+image DamagePowerUp damagepowerup
+image HealthPowerUp healthpowerup
 
 # Sounds
 

@@ -66,6 +66,7 @@
     <Compile Include="Model\Other\HealthBar.cs" />
     <Compile Include="Model\Other\Item.cs" />
     <Compile Include="Model\Other\PowerUps\DamagePowerUp.cs" />
+    <Compile Include="Model\Other\PowerUps\HealthPowerUp.cs" />
     <Compile Include="Model\Other\PowerUps\Powerup.cs" />
     <Compile Include="Model\Other\Projectiles\ContinuousLaser.cs" />
     <Compile Include="Model\Other\Projectiles\Laser.cs" />

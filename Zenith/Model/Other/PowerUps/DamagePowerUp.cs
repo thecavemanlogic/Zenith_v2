@@ -19,6 +19,7 @@ namespace Zenith
         public DamagePowerUp(Vector2 position)
             : base(position)
         {
+            gameImage = GameImage.DamagePowerUp;
             Damage = 50;
         }
     }

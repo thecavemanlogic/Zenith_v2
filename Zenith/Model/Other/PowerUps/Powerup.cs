@@ -37,6 +37,20 @@ namespace Zenith
             }
         }
 
+        public static PowerUp GetRandomPowerUp(Vector2 position)
+        {
+            Type[] types = { typeof(DamagePowerUp), typeof(HealthPowerUp)};
+
+            int r = World.Instance.Random.Next(0, types.Length);
+
+            PowerUp powerup = null;
+
+            if (r < 0.5) powerup = new HealthPowerUp(position);
+            else powerup = new DamagePowerUp(position);
+
+            return powerup;
+        }
+
         public int Damage { set; get; }
         public int ReloadTime { set; get; }
         public bool Health { set; get; }
@@ -47,12 +61,12 @@ namespace Zenith
             : base (position)
         {
             imageRotation = 0;
-            gameImage = GameImage.PowerUp;
+            gameImage = GameImage.DamagePowerUp;    // just set a default one so that we can at least see it
             size = new Vector2(32, 32);
 
             Damage = 0;
             ReloadTime = 0;
-            Health = true;
+            Health = false;
             Duration = 300;
         }
     }

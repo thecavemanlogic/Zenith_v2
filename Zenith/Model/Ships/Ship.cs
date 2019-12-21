@@ -144,8 +144,13 @@ namespace Zenith
                 World.Instance.Score += worth;
             }
 
-            var p = new DamagePowerUp(position);
-            World.Instance.AddObject(p);
+            if (World.Instance.Random.NextDouble() < 0.2)
+            {
+                //var p = new DamagePowerUp(position);
+                var p = PowerUp.GetRandomPowerUp(position);
+                World.Instance.AddObject(p);
+            }
+            
 
             onDeath?.Invoke();
         }
@@ -197,7 +202,7 @@ namespace Zenith
                 if (cannon.FirePattern[i] > 0) cannon.FirePattern[i] -= 1;
             }
 
-            size *= 1.20f;
+            if (power.Damage != 0) size *= 1.20f;
         }
 
         // Constructor

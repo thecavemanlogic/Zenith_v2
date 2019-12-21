@@ -869,7 +869,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:powerup.png
+/build:powerup.png;damagepowerup.png
 
 #begin Projectiles/continuous.png
 /importer:TextureImporter
